@@ -4,6 +4,7 @@ body{
   background-attachment: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 #root{
   justify-content: center;
@@ -91,7 +92,8 @@ nav{
   justify-content: space-around;
 }
 .description{
-  width: 450px;
+  width: 500px;
+  align-items: center;
 }
 .title{
   color: antiquewhite;
@@ -228,24 +230,29 @@ p.enter{
 .principal-footer{
   width: auto;
   text-align: center;
+  
 }
 
 .aquanet-footer{
   margin-top: 12px;
   margin-bottom: 0px;
+  font-weight: 100;
 }
 
 .aquanet-generation{
   margin-block: 0;
+  font-weight: 100;
 }
 
 .year{
   margin-block: 0;
+  font-weight: 100;
 }
 
 .team{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   margin-top: 0;
   height: fit-content;
 }
@@ -253,22 +260,44 @@ p.enter{
 .team-int{
   margin-inline: 12px;
   margin-block: 6px;
+  text-align: center;
+  font-weight: 100;
 }
 
 @media (max-width:640px){
   .root{
     flex-direction: column;
     align-items: center;
+    padding: 12px;
     }
+
     .container{
       flex-direction: column;
+      align-items: center;
     }
-  .login{
-    justify-content: center;
-    position: none;
-    right: 0;
-    /* width: 90%; */
-  }
+
+    .description{
+      height: 600px;
+    }
+  
+    .end-container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .collaborators-container{
+      flex-direction: column;
+    }
+
+    .collaborators{
+      margin-block:12px;
+    }
+
+    .collaborators:hover{
+      cursor: pointer;
+      scale: none;
+      transition: none;
+    }
 }
 
 
