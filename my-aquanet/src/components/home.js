@@ -12,7 +12,9 @@ const Home =()=>{
                 <p className='enter'>Ingresa</p>
                 <input className="username" placeholder="Nombre de Usuario"/>
                 <input className="password" placeholder="Contraseña"/>
+                <div className="forgot-pass">
                 <p className="forgotPassword">Recuperar contraseña</p>
+                </div>
                 </div>
                 <button className="sign-in">Ingresa</button>
             </div>
