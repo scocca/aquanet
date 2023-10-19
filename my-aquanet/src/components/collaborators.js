@@ -1,7 +1,7 @@
 const Collaborators = ({generation, femplea, bchile, bhp}) =>{
     return(
         <div className="end-container">
-        <h3 className="collaborators-title">Colaboradores</h3>
+        <h3 className="collaborators-title">Nuestros colaboradores</h3>
         <div className="collaborators-container">
             <span className="arrow-left"/>
                 <img className="collaborators" src={generation} alt=""/>

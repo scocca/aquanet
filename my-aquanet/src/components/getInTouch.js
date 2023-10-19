@@ -3,15 +3,15 @@ const GetInTouch = ({mail, telephone, web})=>{
         <div className="inTouch-container">
             <div className="inTouch-data-container">
                 <span className="icon">mail</span>
-                <p classname='inTouch-data'>{mail}</p>
+                <p className='inTouch-data'>{mail}</p>
             </div>
             <div className="inTouch-data-container">
                 <span className="icon">telephone</span>
-                <p classname='inTouch-data'>{telephone}</p>
+                <p className='inTouch-data'>{telephone}</p>
             </div>
             <div className="inTouch-data-container">
                 <span className="icon">web</span>
-                <p classname='inTouch-data'>{web}</p>
+                <p className='inTouch-data'>{web}</p>
             </div>
         </div>
     )
