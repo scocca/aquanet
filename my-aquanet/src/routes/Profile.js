@@ -1,16 +1,16 @@
 import React from "react"
 import './App.css'
-import {NavBar} from './components/NavBar.js'
+import { NavBar } from './components/NavBar.js'
 import { Footer } from './components/footer';
 
-const MainProfile =()=>{
+const Profile =()=>{
     return (
-        <React.Fragment>
+        <>
             <NavBar/>
             
             <Footer/>
-        </React.Fragment>
+        </>
     )
 }
 
-export {MainProfile}
+export {Profile}
